@@ -1259,6 +1259,10 @@ int Game::render2D(long time)
 			s << "Level " << level << ": " << numCaptured << " / " << numRequired;
 			drawText(Settings::getWindowWidth() - 200, Settings::getWindowHeight() - 70, s.str().c_str());
 
+			s.str(string());
+			s << "Press O to restart the Level";
+			drawText(20, Settings::getWindowHeight() - 70, s.str().c_str());
+
 			/*
 			const unsigned char * ver = glGetString(GL_VERSION);
 			string v = "";
