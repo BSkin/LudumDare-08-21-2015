@@ -1,0 +1,142 @@
+﻿Build started 8/23/2015 6:26:35 PM.
+     1>Project "C:\Users\Ben\Desktop\Projects\Boat 2D\Boat\Boat.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _MBCS /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt Game.cpp Man.cpp main.cpp
+         Man.cpp
+         Generating Code...
+         Compiling...
+         Game.cpp
+     1>c:\program files (x86)\microsoft visual studio 11.0\vc\include\math.h(631): warning C4005: 'M_PI' : macro redefinition
+                 c:\users\ben\desktop\projects\boat 2d\boat\sdl2-2.0.3\include\sdl_stdinc.h(350) : see previous definition of 'M_PI'
+     1>c:\users\ben\desktop\projects\boat 2d\boat\framebuffer.h(29): warning C4018: '>=' : signed/unsigned mismatch
+     1>c:\users\ben\desktop\projects\boat 2d\boat\game.cpp(27): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\string.h(191) : see declaration of 'strncpy'
+     1>c:\users\ben\desktop\projects\boat 2d\boat\game.cpp(47): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\ben\desktop\projects\boat 2d\boat\game.cpp(67): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(218) : see declaration of 'fopen'
+     1>c:\users\ben\desktop\projects\boat 2d\boat\game.cpp(84): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\ben\desktop\projects\boat 2d\boat\game.cpp(112): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\ben\desktop\projects\boat 2d\boat\game.cpp(167): warning C4996: 'vsprintf': This function or variable may be unsafe. Consider using vsprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(357) : see declaration of 'vsprintf'
+     1>c:\users\ben\desktop\projects\boat 2d\boat\game.cpp(273): warning C4800: 'BOOL' : forcing value to bool 'true' or 'false' (performance warning)
+     1>c:\users\ben\desktop\projects\boat 2d\boat\game.cpp(566): warning C4305: 'argument' : truncation from 'double' to 'const btScalar'
+     1>c:\users\ben\desktop\projects\boat 2d\boat\game.cpp(874): warning C4244: 'argument' : conversion from 'double' to 'long', possible loss of data
+     1>c:\users\ben\desktop\projects\boat 2d\boat\game.cpp(1128): warning C4305: 'argument' : truncation from 'double' to 'GLclampf'
+         Generating Code...
+         Compiling...
+         main.cpp
+     1>c:\program files (x86)\microsoft visual studio 11.0\vc\include\math.h(631): warning C4005: 'M_PI' : macro redefinition
+                 c:\users\ben\desktop\projects\boat 2d\boat\sdl2-2.0.3\include\sdl_stdinc.h(350) : see previous definition of 'M_PI'
+     1>c:\users\ben\desktop\projects\boat 2d\boat\framebuffer.h(29): warning C4018: '>=' : signed/unsigned mismatch
+         Generating Code...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Ben\Desktop\Projects\Boat 2D\Debug\Boat.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:\Program Files (x86)\Visual Leak Detector\lib\Win32" glu32.lib opengl32.lib OpenGL\glew32.lib OpenAL\OpenAL32.lib "SDL2-2.0.3\lib\x86\SDL2.lib" Ws2_32.lib Bullet\lib\OpenGLSupport_debug.lib Bullet\lib\BulletDynamics_debug.lib Bullet\lib\BulletCollision_debug.lib Bullet\lib\LinearMath_debug.lib Bullet\lib\BulletSoftBody_debug.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Ben\Desktop\Projects\Boat 2D\Debug\Boat.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Ben\Desktop\Projects\Boat 2D\Debug\Boat.lib" /MACHINE:X86 Debug\AI.obj
+         Debug\AssetLoader.obj
+         Debug\AssetManager.obj
+         Debug\BoxObject.obj
+         Debug\Camera.obj
+         Debug\Character.obj
+         Debug\CircleObject.obj
+         Debug\Client.obj
+         Debug\ClientThread.obj
+         Debug\CollisionObject.obj
+         Debug\DataBuffer.obj
+         Debug\EventHandler.obj
+         Debug\EventLogger.obj
+         Debug\EventSerializer.obj
+         Debug\FrameBuffer.obj
+         Debug\Game.obj
+         Debug\GameObject.obj
+         Debug\GaussianDistributionHandler.obj
+         Debug\HeightFieldObject.obj
+         Debug\InputManager.obj
+         Debug\main.obj
+         Debug\Man.obj
+         Debug\Model.obj
+         Debug\Packet.obj
+         Debug\PhysicsObject.obj
+         Debug\PlayerObject.obj
+         Debug\PropObject.obj
+         Debug\RenderObject.obj
+         Debug\RigidObject.obj
+         Debug\Settings.obj
+         Debug\Shader.obj
+         Debug\Soldier.obj
+         Debug\Sound.obj
+         Debug\SoundManager.obj
+         Debug\SoundSource.obj
+         Debug\Texture.obj
+     1>BulletDynamics_debug.lib(btConeTwistConstraint.obj) : warning LNK4099: PDB 'bulletdynamics_vs2010_debug.pdb' was not found with 'BulletDynamics_debug.lib(btConeTwistConstraint.obj)' or at 'C:\Users\Ben\Desktop\Projects\Boat 2D\Debug\bulletdynamics_vs2010_debug.pdb'; linking object as if no debug info
+     1>BulletDynamics_debug.lib(btGeneric6DofConstraint.obj) : warning LNK4099: PDB 'bulletdynamics_vs2010_debug.pdb' was not found with 'BulletDynamics_debug.lib(btGeneric6DofConstraint.obj)' or at 'C:\Users\Ben\Desktop\Projects\Boat 2D\Debug\bulletdynamics_vs2010_debug.pdb'; linking object as if no debug info
+     1>BulletDynamics_debug.lib(btSequentialImpulseConstraintSolver.obj) : warning LNK4099: PDB 'bulletdynamics_vs2010_debug.pdb' was not found with 'BulletDynamics_debug.lib(btSequentialImpulseConstraintSolver.obj)' or at 'C:\Users\Ben\Desktop\Projects\Boat 2D\Debug\bulletdynamics_vs2010_debug.pdb'; linking object as if no debug info
+     1>BulletDynamics_debug.lib(btTypedConstraint.obj) : warning LNK4099: PDB 'bulletdynamics_vs2010_debug.pdb' was not found with 'BulletDynamics_debug.lib(btTypedConstraint.obj)' or at 'C:\Users\Ben\Desktop\Projects\Boat 2D\Debug\bulletdynamics_vs2010_debug.pdb'; linking object as if no debug info
+     1>BulletDynamics_debug.lib(btDiscreteDynamicsWorld.obj) : warning LNK4099: PDB 'bulletdynamics_vs2010_debug.pdb' was not found with 'BulletDynamics_debug.lib(btDiscreteDynamicsWorld.obj)' or at 'C:\Users\Ben\Desktop\Projects\Boat 2D\Debug\bulletdynamics_vs2010_debug.pdb'; linking object as if no debug info
+     1>BulletDynamics_debug.lib(btRigidBody.obj) : warning LNK4099: PDB 'bulletdynamics_vs2010_debug.pdb' was not found with 'BulletDynamics_debug.lib(btRigidBody.obj)' or at 'C:\Users\Ben\Desktop\Projects\Boat 2D\Debug\bulletdynamics_vs2010_debug.pdb'; linking object as if no debug info
+     1>BulletCollision_debug.lib(btCollisionAlgorithm.obj) : warning LNK4099: PDB 'bulletcollision_vs2010_debug.pdb' was not found with 'BulletCollision_debug.lib(btCollisionAlgorithm.obj)' or at 'C:\Users\Ben\Desktop\Projects\Boat 2D\Debug\bulletcollision_vs2010_debug.pdb'; linking object as if no debug info
+     1>BulletCollision_debug.lib(btDbvt.obj) : warning LNK4099: PDB 'bulletcollision_vs2010_debug.pdb' was not found with 'BulletCollision_debug.lib(btDbvt.obj)' or at 'C:\Users\Ben\Desktop\Projects\Boat 2D\Debug\bulletcollision_vs2010_debug.pdb'; linking object as if no debug info
+     1>BulletCollision_debug.lib(btDbvtBroadphase.obj) : warning LNK4099: PDB 'bulletcollision_vs2010_debug.pdb' was not found with 'BulletCollision_debug.lib(btDbvtBroadphase.obj)' or at 'C:\Users\Ben\Desktop\Projects\Boat 2D\Debug\bulletcollision_vs2010_debug.pdb'; linking object as if no debug info
+     1>BulletCollision_debug.lib(btDispatcher.obj) : warning LNK4099: PDB 'bulletcollision_vs2010_debug.pdb' was not found with 'BulletCollision_debug.lib(btDispatcher.obj)' or at 'C:\Users\Ben\Desktop\Projects\Boat 2D\Debug\bulletcollision_vs2010_debug.pdb'; linking object as if no debug info
+     1>BulletCollision_debug.lib(btOverlappingPairCache.obj) : warning LNK4099: PDB 'bulletcollision_vs2010_debug.pdb' was not found with 'BulletCollision_debug.lib(btOverlappingPairCache.obj)' or at 'C:\Users\Ben\Desktop\Projects\Boat 2D\Debug\bulletcollision_vs2010_debug.pdb'; linking object as if no debug info
+     1>BulletCollision_debug.lib(btQuantizedBvh.obj) : warning LNK4099: PDB 'bulletcollision_vs2010_debug.pdb' was not found with 'BulletCollision_debug.lib(btQuantizedBvh.obj)' or at 'C:\Users\Ben\Desktop\Projects\Boat 2D\Debug\bulletcollision_vs2010_debug.pdb'; linking object as if no debug info
+     1>BulletCollision_debug.lib(btActivatingCollisionAlgorithm.obj) : warning LNK4099: PDB 'bulletcollision_vs2010_debug.pdb' was not found with 'BulletCollision_debug.lib(btActivatingCollisionAlgorithm.obj)' or at 'C:\Users\Ben\Desktop\Projects\Boat 2D\Debug\bulletcollision_vs2010_debug.pdb'; linking object as if no debug info
+     1>BulletCollision_debug.lib(btBoxBoxCollisionAlgorithm.obj) : warning LNK4099: PDB 'bulletcollision_vs2010_debug.pdb' was not found with 'BulletCollision_debug.lib(btBoxBoxCollisionAlgorithm.obj)' or at 'C:\Users\Ben\Desktop\Projects\Boat 2D\Debug\bulletcollision_vs2010_debug.pdb'; linking object as if no debug info
+     1>BulletCollision_debug.lib(btBoxBoxDetector.obj) : warning LNK4099: PDB 'bulletcollision_vs2010_debug.pdb' was not found with 'BulletCollision_debug.lib(btBoxBoxDetector.obj)' or at 'C:\Users\Ben\Desktop\Projects\Boat 2D\Debug\bulletcollision_vs2010_debug.pdb'; linking object as if no debug info
+     1>BulletCollision_debug.lib(btCollisionDispatcher.obj) : warning LNK4099: PDB 'bulletcollision_vs2010_debug.pdb' was not found with 'BulletCollision_debug.lib(btCollisionDispatcher.obj)' or at 'C:\Users\Ben\Desktop\Projects\Boat 2D\Debug\bulletcollision_vs2010_debug.pdb'; linking object as if no debug info
+     1>BulletCollision_debug.lib(btCollisionObject.obj) : warning LNK4099: PDB 'bulletcollision_vs2010_debug.pdb' was not found with 'BulletCollision_debug.lib(btCollisionObject.obj)' or at 'C:\Users\Ben\Desktop\Projects\Boat 2D\Debug\bulletcollision_vs2010_debug.pdb'; linking object as if no debug info
+     1>BulletCollision_debug.lib(btCollisionWorld.obj) : warning LNK4099: PDB 'bulletcollision_vs2010_debug.pdb' was not found with 'BulletCollision_debug.lib(btCollisionWorld.obj)' or at 'C:\Users\Ben\Desktop\Projects\Boat 2D\Debug\bulletcollision_vs2010_debug.pdb'; linking object as if no debug info
+     1>BulletCollision_debug.lib(btCompoundCollisionAlgorithm.obj) : warning LNK4099: PDB 'bulletcollision_vs2010_debug.pdb' was not found with 'BulletCollision_debug.lib(btCompoundCollisionAlgorithm.obj)' or at 'C:\Users\Ben\Desktop\Projects\Boat 2D\Debug\bulletcollision_vs2010_debug.pdb'; linking object as if no debug info
+     1>BulletCollision_debug.lib(btCompoundCompoundCollisionAlgorithm.obj) : warning LNK4099: PDB 'bulletcollision_vs2010_debug.pdb' was not found with 'BulletCollision_debug.lib(btCompoundCompoundCollisionAlgorithm.obj)' or at 'C:\Users\Ben\Desktop\Projects\Boat 2D\Debug\bulletcollision_vs2010_debug.pdb'; linking object as if no debug info
+     1>BulletCollision_debug.lib(btConvexConcaveCollisionAlgorithm.obj) : warning LNK4099: PDB 'bulletcollision_vs2010_debug.pdb' was not found with 'BulletCollision_debug.lib(btConvexConcaveCollisionAlgorithm.obj)' or at 'C:\Users\Ben\Desktop\Projects\Boat 2D\Debug\bulletcollision_vs2010_debug.pdb'; linking object as if no debug info
+     1>BulletCollision_debug.lib(btConvexConvexAlgorithm.obj) : warning LNK4099: PDB 'bulletcollision_vs2010_debug.pdb' was not found with 'BulletCollision_debug.lib(btConvexConvexAlgorithm.obj)' or at 'C:\Users\Ben\Desktop\Projects\Boat 2D\Debug\bulletcollision_vs2010_debug.pdb'; linking object as if no debug info
+     1>BulletCollision_debug.lib(btConvexPlaneCollisionAlgorithm.obj) : warning LNK4099: PDB 'bulletcollision_vs2010_debug.pdb' was not found with 'BulletCollision_debug.lib(btConvexPlaneCollisionAlgorithm.obj)' or at 'C:\Users\Ben\Desktop\Projects\Boat 2D\Debug\bulletcollision_vs2010_debug.pdb'; linking object as if no debug info
+     1>BulletCollision_debug.lib(btDefaultCollisionConfiguration.obj) : warning LNK4099: PDB 'bulletcollision_vs2010_debug.pdb' was not found with 'BulletCollision_debug.lib(btDefaultCollisionConfiguration.obj)' or at 'C:\Users\Ben\Desktop\Projects\Boat 2D\Debug\bulletcollision_vs2010_debug.pdb'; linking object as if no debug info
+     1>BulletCollision_debug.lib(btEmptyCollisionAlgorithm.obj) : warning LNK4099: PDB 'bulletcollision_vs2010_debug.pdb' was not found with 'BulletCollision_debug.lib(btEmptyCollisionAlgorithm.obj)' or at 'C:\Users\Ben\Desktop\Projects\Boat 2D\Debug\bulletcollision_vs2010_debug.pdb'; linking object as if no debug info
+     1>BulletCollision_debug.lib(btGhostObject.obj) : warning LNK4099: PDB 'bulletcollision_vs2010_debug.pdb' was not found with 'BulletCollision_debug.lib(btGhostObject.obj)' or at 'C:\Users\Ben\Desktop\Projects\Boat 2D\Debug\bulletcollision_vs2010_debug.pdb'; linking object as if no debug info
+     1>BulletCollision_debug.lib(btHashedSimplePairCache.obj) : warning LNK4099: PDB 'bulletcollision_vs2010_debug.pdb' was not found with 'BulletCollision_debug.lib(btHashedSimplePairCache.obj)' or at 'C:\Users\Ben\Desktop\Projects\Boat 2D\Debug\bulletcollision_vs2010_debug.pdb'; linking object as if no debug info
+     1>BulletCollision_debug.lib(btManifoldResult.obj) : warning LNK4099: PDB 'bulletcollision_vs2010_debug.pdb' was not found with 'BulletCollision_debug.lib(btManifoldResult.obj)' or at 'C:\Users\Ben\Desktop\Projects\Boat 2D\Debug\bulletcollision_vs2010_debug.pdb'; linking object as if no debug info
+     1>BulletCollision_debug.lib(btSimulationIslandManager.obj) : warning LNK4099: PDB 'bulletcollision_vs2010_debug.pdb' was not found with 'BulletCollision_debug.lib(btSimulationIslandManager.obj)' or at 'C:\Users\Ben\Desktop\Projects\Boat 2D\Debug\bulletcollision_vs2010_debug.pdb'; linking object as if no debug info
+     1>BulletCollision_debug.lib(btSphereSphereCollisionAlgorithm.obj) : warning LNK4099: PDB 'bulletcollision_vs2010_debug.pdb' was not found with 'BulletCollision_debug.lib(btSphereSphereCollisionAlgorithm.obj)' or at 'C:\Users\Ben\Desktop\Projects\Boat 2D\Debug\bulletcollision_vs2010_debug.pdb'; linking object as if no debug info
+     1>BulletCollision_debug.lib(btSphereTriangleCollisionAlgorithm.obj) : warning LNK4099: PDB 'bulletcollision_vs2010_debug.pdb' was not found with 'BulletCollision_debug.lib(btSphereTriangleCollisionAlgorithm.obj)' or at 'C:\Users\Ben\Desktop\Projects\Boat 2D\Debug\bulletcollision_vs2010_debug.pdb'; linking object as if no debug info
+     1>BulletCollision_debug.lib(btUnionFind.obj) : warning LNK4099: PDB 'bulletcollision_vs2010_debug.pdb' was not found with 'BulletCollision_debug.lib(btUnionFind.obj)' or at 'C:\Users\Ben\Desktop\Projects\Boat 2D\Debug\bulletcollision_vs2010_debug.pdb'; linking object as if no debug info
+     1>BulletCollision_debug.lib(SphereTriangleDetector.obj) : warning LNK4099: PDB 'bulletcollision_vs2010_debug.pdb' was not found with 'BulletCollision_debug.lib(SphereTriangleDetector.obj)' or at 'C:\Users\Ben\Desktop\Projects\Boat 2D\Debug\bulletcollision_vs2010_debug.pdb'; linking object as if no debug info
+     1>BulletCollision_debug.lib(btBoxShape.obj) : warning LNK4099: PDB 'bulletcollision_vs2010_debug.pdb' was not found with 'BulletCollision_debug.lib(btBoxShape.obj)' or at 'C:\Users\Ben\Desktop\Projects\Boat 2D\Debug\bulletcollision_vs2010_debug.pdb'; linking object as if no debug info
+     1>BulletCollision_debug.lib(btBvhTriangleMeshShape.obj) : warning LNK4099: PDB 'bulletcollision_vs2010_debug.pdb' was not found with 'BulletCollision_debug.lib(btBvhTriangleMeshShape.obj)' or at 'C:\Users\Ben\Desktop\Projects\Boat 2D\Debug\bulletcollision_vs2010_debug.pdb'; linking object as if no debug info
+     1>BulletCollision_debug.lib(btCapsuleShape.obj) : warning LNK4099: PDB 'bulletcollision_vs2010_debug.pdb' was not found with 'BulletCollision_debug.lib(btCapsuleShape.obj)' or at 'C:\Users\Ben\Desktop\Projects\Boat 2D\Debug\bulletcollision_vs2010_debug.pdb'; linking object as if no debug info
+     1>BulletCollision_debug.lib(btCollisionShape.obj) : warning LNK4099: PDB 'bulletcollision_vs2010_debug.pdb' was not found with 'BulletCollision_debug.lib(btCollisionShape.obj)' or at 'C:\Users\Ben\Desktop\Projects\Boat 2D\Debug\bulletcollision_vs2010_debug.pdb'; linking object as if no debug info
+     1>BulletCollision_debug.lib(btCompoundShape.obj) : warning LNK4099: PDB 'bulletcollision_vs2010_debug.pdb' was not found with 'BulletCollision_debug.lib(btCompoundShape.obj)' or at 'C:\Users\Ben\Desktop\Projects\Boat 2D\Debug\bulletcollision_vs2010_debug.pdb'; linking object as if no debug info
+     1>BulletCollision_debug.lib(btConcaveShape.obj) : warning LNK4099: PDB 'bulletcollision_vs2010_debug.pdb' was not found with 'BulletCollision_debug.lib(btConcaveShape.obj)' or at 'C:\Users\Ben\Desktop\Projects\Boat 2D\Debug\bulletcollision_vs2010_debug.pdb'; linking object as if no debug info
+     1>BulletCollision_debug.lib(btConvexHullShape.obj) : warning LNK4099: PDB 'bulletcollision_vs2010_debug.pdb' was not found with 'BulletCollision_debug.lib(btConvexHullShape.obj)' or at 'C:\Users\Ben\Desktop\Projects\Boat 2D\Debug\bulletcollision_vs2010_debug.pdb'; linking object as if no debug info
+     1>BulletCollision_debug.lib(btConvexInternalShape.obj) : warning LNK4099: PDB 'bulletcollision_vs2010_debug.pdb' was not found with 'BulletCollision_debug.lib(btConvexInternalShape.obj)' or at 'C:\Users\Ben\Desktop\Projects\Boat 2D\Debug\bulletcollision_vs2010_debug.pdb'; linking object as if no debug info
+     1>BulletCollision_debug.lib(btConvexPolyhedron.obj) : warning LNK4099: PDB 'bulletcollision_vs2010_debug.pdb' was not found with 'BulletCollision_debug.lib(btConvexPolyhedron.obj)' or at 'C:\Users\Ben\Desktop\Projects\Boat 2D\Debug\bulletcollision_vs2010_debug.pdb'; linking object as if no debug info
+     1>BulletCollision_debug.lib(btConvexShape.obj) : warning LNK4099: PDB 'bulletcollision_vs2010_debug.pdb' was not found with 'BulletCollision_debug.lib(btConvexShape.obj)' or at 'C:\Users\Ben\Desktop\Projects\Boat 2D\Debug\bulletcollision_vs2010_debug.pdb'; linking object as if no debug info
+     1>BulletCollision_debug.lib(btCylinderShape.obj) : warning LNK4099: PDB 'bulletcollision_vs2010_debug.pdb' was not found with 'BulletCollision_debug.lib(btCylinderShape.obj)' or at 'C:\Users\Ben\Desktop\Projects\Boat 2D\Debug\bulletcollision_vs2010_debug.pdb'; linking object as if no debug info
+     1>BulletCollision_debug.lib(btHeightfieldTerrainShape.obj) : warning LNK4099: PDB 'bulletcollision_vs2010_debug.pdb' was not found with 'BulletCollision_debug.lib(btHeightfieldTerrainShape.obj)' or at 'C:\Users\Ben\Desktop\Projects\Boat 2D\Debug\bulletcollision_vs2010_debug.pdb'; linking object as if no debug info
+     1>BulletCollision_debug.lib(btOptimizedBvh.obj) : warning LNK4099: PDB 'bulletcollision_vs2010_debug.pdb' was not found with 'BulletCollision_debug.lib(btOptimizedBvh.obj)' or at 'C:\Users\Ben\Desktop\Projects\Boat 2D\Debug\bulletcollision_vs2010_debug.pdb'; linking object as if no debug info
+     1>BulletCollision_debug.lib(btPolyhedralConvexShape.obj) : warning LNK4099: PDB 'bulletcollision_vs2010_debug.pdb' was not found with 'BulletCollision_debug.lib(btPolyhedralConvexShape.obj)' or at 'C:\Users\Ben\Desktop\Projects\Boat 2D\Debug\bulletcollision_vs2010_debug.pdb'; linking object as if no debug info
+     1>BulletCollision_debug.lib(btSphereShape.obj) : warning LNK4099: PDB 'bulletcollision_vs2010_debug.pdb' was not found with 'BulletCollision_debug.lib(btSphereShape.obj)' or at 'C:\Users\Ben\Desktop\Projects\Boat 2D\Debug\bulletcollision_vs2010_debug.pdb'; linking object as if no debug info
+     1>BulletCollision_debug.lib(btStaticPlaneShape.obj) : warning LNK4099: PDB 'bulletcollision_vs2010_debug.pdb' was not found with 'BulletCollision_debug.lib(btStaticPlaneShape.obj)' or at 'C:\Users\Ben\Desktop\Projects\Boat 2D\Debug\bulletcollision_vs2010_debug.pdb'; linking object as if no debug info
+     1>BulletCollision_debug.lib(btTriangleCallback.obj) : warning LNK4099: PDB 'bulletcollision_vs2010_debug.pdb' was not found with 'BulletCollision_debug.lib(btTriangleCallback.obj)' or at 'C:\Users\Ben\Desktop\Projects\Boat 2D\Debug\bulletcollision_vs2010_debug.pdb'; linking object as if no debug info
+     1>BulletCollision_debug.lib(btTriangleMeshShape.obj) : warning LNK4099: PDB 'bulletcollision_vs2010_debug.pdb' was not found with 'BulletCollision_debug.lib(btTriangleMeshShape.obj)' or at 'C:\Users\Ben\Desktop\Projects\Boat 2D\Debug\bulletcollision_vs2010_debug.pdb'; linking object as if no debug info
+     1>BulletCollision_debug.lib(btContinuousConvexCollision.obj) : warning LNK4099: PDB 'bulletcollision_vs2010_debug.pdb' was not found with 'BulletCollision_debug.lib(btContinuousConvexCollision.obj)' or at 'C:\Users\Ben\Desktop\Projects\Boat 2D\Debug\bulletcollision_vs2010_debug.pdb'; linking object as if no debug info
+     1>BulletCollision_debug.lib(btConvexCast.obj) : warning LNK4099: PDB 'bulletcollision_vs2010_debug.pdb' was not found with 'BulletCollision_debug.lib(btConvexCast.obj)' or at 'C:\Users\Ben\Desktop\Projects\Boat 2D\Debug\bulletcollision_vs2010_debug.pdb'; linking object as if no debug info
+     1>BulletCollision_debug.lib(btGjkConvexCast.obj) : warning LNK4099: PDB 'bulletcollision_vs2010_debug.pdb' was not found with 'BulletCollision_debug.lib(btGjkConvexCast.obj)' or at 'C:\Users\Ben\Desktop\Projects\Boat 2D\Debug\bulletcollision_vs2010_debug.pdb'; linking object as if no debug info
+     1>BulletCollision_debug.lib(btGjkEpa2.obj) : warning LNK4099: PDB 'bulletcollision_vs2010_debug.pdb' was not found with 'BulletCollision_debug.lib(btGjkEpa2.obj)' or at 'C:\Users\Ben\Desktop\Projects\Boat 2D\Debug\bulletcollision_vs2010_debug.pdb'; linking object as if no debug info
+     1>BulletCollision_debug.lib(btGjkEpaPenetrationDepthSolver.obj) : warning LNK4099: PDB 'bulletcollision_vs2010_debug.pdb' was not found with 'BulletCollision_debug.lib(btGjkEpaPenetrationDepthSolver.obj)' or at 'C:\Users\Ben\Desktop\Projects\Boat 2D\Debug\bulletcollision_vs2010_debug.pdb'; linking object as if no debug info
+     1>BulletCollision_debug.lib(btGjkPairDetector.obj) : warning LNK4099: PDB 'bulletcollision_vs2010_debug.pdb' was not found with 'BulletCollision_debug.lib(btGjkPairDetector.obj)' or at 'C:\Users\Ben\Desktop\Projects\Boat 2D\Debug\bulletcollision_vs2010_debug.pdb'; linking object as if no debug info
+     1>BulletCollision_debug.lib(btMinkowskiPenetrationDepthSolver.obj) : warning LNK4099: PDB 'bulletcollision_vs2010_debug.pdb' was not found with 'BulletCollision_debug.lib(btMinkowskiPenetrationDepthSolver.obj)' or at 'C:\Users\Ben\Desktop\Projects\Boat 2D\Debug\bulletcollision_vs2010_debug.pdb'; linking object as if no debug info
+     1>BulletCollision_debug.lib(btPersistentManifold.obj) : warning LNK4099: PDB 'bulletcollision_vs2010_debug.pdb' was not found with 'BulletCollision_debug.lib(btPersistentManifold.obj)' or at 'C:\Users\Ben\Desktop\Projects\Boat 2D\Debug\bulletcollision_vs2010_debug.pdb'; linking object as if no debug info
+     1>BulletCollision_debug.lib(btPolyhedralContactClipping.obj) : warning LNK4099: PDB 'bulletcollision_vs2010_debug.pdb' was not found with 'BulletCollision_debug.lib(btPolyhedralContactClipping.obj)' or at 'C:\Users\Ben\Desktop\Projects\Boat 2D\Debug\bulletcollision_vs2010_debug.pdb'; linking object as if no debug info
+     1>BulletCollision_debug.lib(btRaycastCallback.obj) : warning LNK4099: PDB 'bulletcollision_vs2010_debug.pdb' was not found with 'BulletCollision_debug.lib(btRaycastCallback.obj)' or at 'C:\Users\Ben\Desktop\Projects\Boat 2D\Debug\bulletcollision_vs2010_debug.pdb'; linking object as if no debug info
+     1>BulletCollision_debug.lib(btSubSimplexConvexCast.obj) : warning LNK4099: PDB 'bulletcollision_vs2010_debug.pdb' was not found with 'BulletCollision_debug.lib(btSubSimplexConvexCast.obj)' or at 'C:\Users\Ben\Desktop\Projects\Boat 2D\Debug\bulletcollision_vs2010_debug.pdb'; linking object as if no debug info
+     1>BulletCollision_debug.lib(btVoronoiSimplexSolver.obj) : warning LNK4099: PDB 'bulletcollision_vs2010_debug.pdb' was not found with 'BulletCollision_debug.lib(btVoronoiSimplexSolver.obj)' or at 'C:\Users\Ben\Desktop\Projects\Boat 2D\Debug\bulletcollision_vs2010_debug.pdb'; linking object as if no debug info
+     1>LinearMath_debug.lib(btAlignedAllocator.obj) : warning LNK4099: PDB 'linearmath_vs2010_debug.pdb' was not found with 'LinearMath_debug.lib(btAlignedAllocator.obj)' or at 'C:\Users\Ben\Desktop\Projects\Boat 2D\Debug\linearmath_vs2010_debug.pdb'; linking object as if no debug info
+     1>LinearMath_debug.lib(btConvexHullComputer.obj) : warning LNK4099: PDB 'linearmath_vs2010_debug.pdb' was not found with 'LinearMath_debug.lib(btConvexHullComputer.obj)' or at 'C:\Users\Ben\Desktop\Projects\Boat 2D\Debug\linearmath_vs2010_debug.pdb'; linking object as if no debug info
+     1>LinearMath_debug.lib(btGeometryUtil.obj) : warning LNK4099: PDB 'linearmath_vs2010_debug.pdb' was not found with 'LinearMath_debug.lib(btGeometryUtil.obj)' or at 'C:\Users\Ben\Desktop\Projects\Boat 2D\Debug\linearmath_vs2010_debug.pdb'; linking object as if no debug info
+     1>LinearMath_debug.lib(btQuickprof.obj) : warning LNK4099: PDB 'linearmath_vs2010_debug.pdb' was not found with 'LinearMath_debug.lib(btQuickprof.obj)' or at 'C:\Users\Ben\Desktop\Projects\Boat 2D\Debug\linearmath_vs2010_debug.pdb'; linking object as if no debug info
+     1>LinearMath_debug.lib(btVector3.obj) : warning LNK4099: PDB 'linearmath_vs2010_debug.pdb' was not found with 'LinearMath_debug.lib(btVector3.obj)' or at 'C:\Users\Ben\Desktop\Projects\Boat 2D\Debug\linearmath_vs2010_debug.pdb'; linking object as if no debug info
+         Boat.vcxproj -> C:\Users\Ben\Desktop\Projects\Boat 2D\Debug\Boat.exe
+     1>Done Building Project "C:\Users\Ben\Desktop\Projects\Boat 2D\Boat\Boat.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:17.55

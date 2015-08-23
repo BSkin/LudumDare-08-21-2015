@@ -1,0 +1,315 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Asset Manger">
+      <UniqueIdentifier>{96dede7b-80d6-431d-8f75-230df634ee26}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Engine Objects">
+      <UniqueIdentifier>{2e30a120-eed9-438e-b1f9-5410770ac5a8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Engine Objects\Events">
+      <UniqueIdentifier>{07caacdb-cc57-4c25-bb08-1c5ec3c28f46}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Engine Objects\Physics Objects">
+      <UniqueIdentifier>{1eddf2bc-5e05-40fe-8d7c-2c11da4e02f9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Engine Objects\Physics Objects\Characters">
+      <UniqueIdentifier>{a38be231-0a65-46db-87b9-ca955c000f9a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Engine Objects\Physics Objects\Collision Objects">
+      <UniqueIdentifier>{f3188114-b95d-4ac3-808b-191b022fe132}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Engine Objects\Physics Objects\Physics Functions">
+      <UniqueIdentifier>{8525ab56-23ce-485a-982f-d632e57a9e90}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Input Manager">
+      <UniqueIdentifier>{09e3904f-7672-49bc-a1b6-cce740e89de8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Networking">
+      <UniqueIdentifier>{a7d0b569-dccd-4806-8227-d0b05796da66}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Asset Manager">
+      <UniqueIdentifier>{c1a6c348-7a61-4ee2-9d5e-43a10e84a9f2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Engine Objects">
+      <UniqueIdentifier>{d68cad4d-4c2e-4109-9d9d-b756795ab811}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Engine Objects\Events">
+      <UniqueIdentifier>{f3835dc3-535c-403b-a272-3a5e4b8895b8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Engine Objects\Physics Objects">
+      <UniqueIdentifier>{6d8d05b1-5be8-4b38-84c2-cb101d727a1e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Engine Objects\Physics Objects\Characters">
+      <UniqueIdentifier>{afb8afbe-a22d-4535-b530-b497d948b85f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Engine Objects\Physics Objects\Collision Objects">
+      <UniqueIdentifier>{47e14200-533f-4941-9d30-549528b7a1e8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Input Manager">
+      <UniqueIdentifier>{8f5e60bf-1a2e-42f2-9098-7fea2f8d993e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Networking">
+      <UniqueIdentifier>{f51f1037-7cd4-451d-a954-2e25d01f5f8e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Utilities">
+      <UniqueIdentifier>{f248f85e-ecea-4c28-b463-c07fcce2aa89}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Utilities">
+      <UniqueIdentifier>{a89979e5-df48-4b5e-b473-5534c87634dd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Engine Objects\Physics Objects\RigidObjects">
+      <UniqueIdentifier>{06e72c42-528f-4df7-b5fa-93e4f9159db6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Engine Objects\Physics Objects\Rigid Objects">
+      <UniqueIdentifier>{f7a5c42f-d67a-4ff1-95d0-55163f1a341f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Sound Manager">
+      <UniqueIdentifier>{4bd28282-76d1-46db-b224-d012a8350c60}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Sound Manager">
+      <UniqueIdentifier>{aac8788f-44a7-466d-8523-c3b7e532bc0c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Camera.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Settings.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AssetLoader.h">
+      <Filter>Header Files\Asset Manger</Filter>
+    </ClInclude>
+    <ClInclude Include="AssetManager.h">
+      <Filter>Header Files\Asset Manger</Filter>
+    </ClInclude>
+    <ClInclude Include="Model.h">
+      <Filter>Header Files\Asset Manger</Filter>
+    </ClInclude>
+    <ClInclude Include="Shader.h">
+      <Filter>Header Files\Asset Manger</Filter>
+    </ClInclude>
+    <ClInclude Include="Texture.h">
+      <Filter>Header Files\Asset Manger</Filter>
+    </ClInclude>
+    <ClInclude Include="EventHandler.h">
+      <Filter>Header Files\Engine Objects\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="EventLogger.h">
+      <Filter>Header Files\Engine Objects\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="EventSerializer.h">
+      <Filter>Header Files\Engine Objects\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="Character.h">
+      <Filter>Header Files\Engine Objects\Physics Objects\Characters</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerObject.h">
+      <Filter>Header Files\Engine Objects\Physics Objects\Characters</Filter>
+    </ClInclude>
+    <ClInclude Include="CollisionObject.h">
+      <Filter>Header Files\Engine Objects\Physics Objects\Collision Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="AirborneContactCallback.h">
+      <Filter>Header Files\Engine Objects\Physics Objects\Physics Functions</Filter>
+    </ClInclude>
+    <ClInclude Include="AirborneRayTest.h">
+      <Filter>Header Files\Engine Objects\Physics Objects\Physics Functions</Filter>
+    </ClInclude>
+    <ClInclude Include="ExplosionContactCallback.h">
+      <Filter>Header Files\Engine Objects\Physics Objects\Physics Functions</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysicsObject.h">
+      <Filter>Header Files\Engine Objects\Physics Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="RigidObject.h">
+      <Filter>Header Files\Engine Objects\Physics Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="InputManager.h">
+      <Filter>Header Files\Input Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="KeyDeclarations.h">
+      <Filter>Header Files\Input Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="Client.h">
+      <Filter>Header Files\Networking</Filter>
+    </ClInclude>
+    <ClInclude Include="ClientThread.h">
+      <Filter>Header Files\Networking</Filter>
+    </ClInclude>
+    <ClInclude Include="Packet.h">
+      <Filter>Header Files\Networking</Filter>
+    </ClInclude>
+    <ClInclude Include="DataBuffer.h">
+      <Filter>Header Files\Engine Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject.h">
+      <Filter>Header Files\Engine Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderObject.h">
+      <Filter>Header Files\Engine Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="FrameBuffer.h">
+      <Filter>Header Files\Engine Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Utilities.h">
+      <Filter>Header Files\Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="GaussianDistributionHandler.h">
+      <Filter>Header Files\Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="HeightFieldObject.h">
+      <Filter>Header Files\Engine Objects\Physics Objects\RigidObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="PropObject.h">
+      <Filter>Header Files\Engine Objects\Physics Objects\RigidObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="Sound.h">
+      <Filter>Header Files\Asset Manger</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundManager.h">
+      <Filter>Header Files\Sound Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundSource.h">
+      <Filter>Header Files\Sound Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="BoxObject.h">
+      <Filter>Header Files\Engine Objects\Physics Objects\RigidObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="CircleObject.h">
+      <Filter>Header Files\Engine Objects\Physics Objects\RigidObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="AirborneSpiderContactCallback.h">
+      <Filter>Header Files\Engine Objects\Physics Objects\Physics Functions</Filter>
+    </ClInclude>
+    <ClInclude Include="Man.h">
+      <Filter>Header Files\Engine Objects\Physics Objects\Characters</Filter>
+    </ClInclude>
+    <ClInclude Include="Soldier.h">
+      <Filter>Header Files\Engine Objects\Physics Objects\Characters</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Camera.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Settings.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AssetLoader.cpp">
+      <Filter>Source Files\Asset Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="AssetManager.cpp">
+      <Filter>Source Files\Asset Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="Model.cpp">
+      <Filter>Source Files\Asset Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="Shader.cpp">
+      <Filter>Source Files\Asset Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="Texture.cpp">
+      <Filter>Source Files\Asset Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="DataBuffer.cpp">
+      <Filter>Source Files\Engine Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject.cpp">
+      <Filter>Source Files\Engine Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="RenderObject.cpp">
+      <Filter>Source Files\Engine Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="EventHandler.cpp">
+      <Filter>Source Files\Engine Objects\Events</Filter>
+    </ClCompile>
+    <ClCompile Include="EventLogger.cpp">
+      <Filter>Source Files\Engine Objects\Events</Filter>
+    </ClCompile>
+    <ClCompile Include="EventSerializer.cpp">
+      <Filter>Source Files\Engine Objects\Events</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysicsObject.cpp">
+      <Filter>Source Files\Engine Objects\Physics Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="RigidObject.cpp">
+      <Filter>Source Files\Engine Objects\Physics Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="Character.cpp">
+      <Filter>Source Files\Engine Objects\Physics Objects\Characters</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerObject.cpp">
+      <Filter>Source Files\Engine Objects\Physics Objects\Characters</Filter>
+    </ClCompile>
+    <ClCompile Include="CollisionObject.cpp">
+      <Filter>Source Files\Engine Objects\Physics Objects\Collision Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="InputManager.cpp">
+      <Filter>Source Files\Input Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="Client.cpp">
+      <Filter>Source Files\Networking</Filter>
+    </ClCompile>
+    <ClCompile Include="ClientThread.cpp">
+      <Filter>Source Files\Networking</Filter>
+    </ClCompile>
+    <ClCompile Include="Packet.cpp">
+      <Filter>Source Files\Networking</Filter>
+    </ClCompile>
+    <ClCompile Include="FrameBuffer.cpp">
+      <Filter>Source Files\Engine Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="GaussianDistributionHandler.cpp">
+      <Filter>Source Files\Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="PropObject.cpp">
+      <Filter>Source Files\Engine Objects\Physics Objects\Rigid Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="HeightFieldObject.cpp">
+      <Filter>Source Files\Engine Objects\Physics Objects\Rigid Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundManager.cpp">
+      <Filter>Source Files\Sound Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="Sound.cpp">
+      <Filter>Source Files\Asset Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundSource.cpp">
+      <Filter>Source Files\Sound Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="BoxObject.cpp">
+      <Filter>Source Files\Engine Objects\Physics Objects\Rigid Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="CircleObject.cpp">
+      <Filter>Source Files\Engine Objects\Physics Objects\Rigid Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="Man.cpp">
+      <Filter>Source Files\Engine Objects\Physics Objects\Characters</Filter>
+    </ClCompile>
+    <ClCompile Include="Soldier.cpp">
+      <Filter>Source Files\Engine Objects\Physics Objects\Characters</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
